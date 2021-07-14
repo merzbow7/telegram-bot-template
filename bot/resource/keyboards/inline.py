@@ -1,6 +1,6 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from resource.callbacks import cb_apples_count
+from bot.resource.callbacks import cb_apples_count
 
 
 def buy_keyboard(text: str = '') -> InlineKeyboardMarkup:

@@ -1,8 +1,8 @@
 from aiogram import types, Dispatcher
 from aiogram.dispatcher.filters import Command
 
-from resource.callbacks import cb_apples_count
-from resource.keyboards import buy_keyboard, sport_keyboard
+from bot.resource import cb_apples_count
+from bot.resource import buy_keyboard, sport_keyboard
 
 
 async def sport(message: types.Message) -> None:
